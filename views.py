@@ -151,7 +151,7 @@ def render_footer():
 
 def setup_page_styling():
     """
-    Injects CSS to hide default Streamlit elements (footer, menu, header)
+    Injects CSS to hide default Streamlit elements (footer, header)
     to give the application a custom, professional look.
     """
     hide_streamlit_style = """
@@ -161,6 +161,10 @@ def setup_page_styling():
         
         /* Hide streamlit header */
         header {visibility: hidden;}
+
+        /* Hide streamlit header & footer on mobiles */
+        .stApp > header {display: none !important;}
+        .stApp > footer {display: none !important;}
         </style>
         """
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)
