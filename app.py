@@ -17,13 +17,15 @@ from views import (
     render_about_tab, 
     render_overview_content,
     render_detail_content, 
-    render_footer
+    render_footer,
+    setup_page_styling
 )
 from data import data
 import constants as c
 
 # 1. App Configuration
 st.set_page_config(page_title="Peru Regional Telemetry", layout="wide")
+setup_page_styling()
 st.title("Peru Regional Telemetry")
 
 # 2. Sidebar & Inputs
