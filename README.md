@@ -8,31 +8,38 @@ This project demonstrates a robust, end-to-end **ETL (Extract, Transform, Load)*
 
 It serves as a practical blueprint for **data-driven application development**, bridging the gap between raw data ingestion and user-facing intelligence using a modern, AI-augmented workflow.
 
-### ⚙️ Core System Capabilities:
-It demonstrates key engineering concepts including:
-
-* **Data Extraction (API Integration):** Establishing a comms link to consume external REST APIs (Meteoblue) and ingest raw environmental data.
-* **Data Transformation (Engineering):** The core processing engine. Cleaning, structuring, and smoothing time-series data using **Pandas** to turn noise into signal.
-* **Visual Intelligence:** Rendering high-precision, custom static charts with **Matplotlib** to visualize trends and anomalies.
-* **System Architecture:** Optimizing performance and user experience through **Streamlit's** advanced features (`session_state` for memory, `@st.cache_data` for speed, and modular component design).
-* **Security Protocols:** Managing sensitive credentials and API keys securely within the deployment environment.
-
----
+--
 
 ## 🚀 Key Features
+* **Interactive Location Selection:** Dynamic selection from strategic locations across Peru (provinces and cities) with instantaneous updates.
 
-* **Interactive Location Selection:** Users can dynamically select from a predefined list of strategic locations in Peru (provinces and cities).
-* **Smart Caching:** Minimizes API calls and latency by caching data responses using Streamlit's caching mechanism.
-* **7-Day Forecast Overview:** A comprehensive look at temperature trends (actual vs. felt) and precipitation types for the upcoming week.
-* **Deep Dive 24h Detail:** An interactive date picker allows users to drill down into hourly data for any specific day in the forecast.
-* **Data Smoothing:** Implements rolling averages to visualize temperature trends more clearly.
-* **Robust Error Handling:** Handles API failures or missing data with user-friendly messages.
+* **Smart Caching:** Minimizes API latency and redundant calls by leveraging Streamlit’s advanced caching mechanisms.
 
----
+* **Multi-Tier Forecasting:** Comprehensive 7-day trend analysis (actual vs. felt temperature) with 24-hour granular drill-down capabilities.
 
-## 🏗️ Project Architecture
+* **Data Smoothing:** Implements rolling averages to filter atmospheric noise and visualize clear temperature trends.
 
+* **Robust Error Handling:** Resilient processing of API failures or missing data with user-friendly status signaling.
+
+## ⚙️ System Architecture
 The application follows a **modular architecture** to separate concerns between data fetching, processing, and presentation. The logic is decoupled from the UI, making the code testable and maintainable.
+
+### 🌐 Data Extraction (The Interface)
+* **REST API Integration:** Establishing a secure communication link with the Meteoblue environmental engine.
+
+* **Security Protocols:** Managing sensitive credentials and API keys within the deployment environment.
+
+### 🧠 Data Transformation (The Engine)
+* **Pandas-Powered ETL:** Cleaning, structuring, and transforming raw time-series data.
+
+* **Engineering Logic:** Converting raw environmental noise into actionable signals through specialized data frame operations.
+
+### 💻 Visual Intelligence (The HQ)
+* **High-Precision Rendering:** Generating custom static charts and anomaly detection using Matplotlib.
+
+* **UX Optimization:** Utilizing session_state for memory persistence and modular components for a high-performance interface.
+
+--
 
 ### System Diagram
 
