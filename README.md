@@ -8,7 +8,6 @@ This project demonstrates a robust, end-to-end **ETL (Extract, Transform, Load)*
 
 It serves as a practical blueprint for **data-driven application development**, bridging the gap between raw data ingestion and user-facing intelligence using a modern, AI-augmented workflow.
 
---
 
 ## 🚀 Key Features
 * **Interactive Location Selection:** Dynamic selection from strategic locations across Peru (provinces and cities) with instantaneous updates.
@@ -20,6 +19,7 @@ It serves as a practical blueprint for **data-driven application development**, 
 * **Data Smoothing:** Implements rolling averages to filter atmospheric noise and visualize clear temperature trends.
 
 * **Robust Error Handling:** Resilient processing of API failures or missing data with user-friendly status signaling.
+
 
 ## ⚙️ System Architecture
 The application follows a **modular architecture** to separate concerns between data fetching, processing, and presentation. The logic is decoupled from the UI, making the code testable and maintainable.
@@ -39,7 +39,6 @@ The application follows a **modular architecture** to separate concerns between 
 
 * **UX Optimization:** Utilizing session_state for memory persistence and modular components for a high-performance interface.
 
---
 
 ### System Diagram
 
