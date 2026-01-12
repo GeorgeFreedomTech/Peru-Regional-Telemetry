@@ -9,6 +9,14 @@ This project demonstrates a robust, end-to-end **ETL (Extract, Transform, Load)*
 It serves as a practical blueprint for **data-driven application development**, bridging the gap between raw data ingestion and user-facing intelligence using a modern, AI-augmented workflow.
 
 
+### 🌐 Live Telemetry HQ
+Access the real-time environmental data stream directly through the web interface.
+
+* **Live Dashboard:** [Peru Regional Telemetry](https://peru-regional-telemetry.streamlit.app/?embed=true)]
+
+* **Data Origin:** This application performs live telemetry ingestion via the Meteoblue REST API. It demonstrates real-time data smoothing and trend projection based on current atmospheric signals.
+
+
 ## 🚀 Key Features
 * **Interactive Location Selection:** Dynamic selection from strategic locations across Peru (provinces and cities) with instantaneous updates.
 
