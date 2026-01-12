@@ -12,7 +12,7 @@ It serves as a practical blueprint for **data-driven application development**, 
 ### 🌐 Live Telemetry HQ
 Access the real-time environmental data stream directly through the web interface.
 
-* **Live Dashboard:** [Peru Regional Telemetry](https://peru-regional-telemetry.streamlit.app/?embed=true)]
+* **Live Dashboard:** [Peru Regional Telemetry](https://peru-regional-telemetry.streamlit.app/?embed=true)
 
 * **Data Origin:** This application performs live telemetry ingestion via the Meteoblue REST API. It demonstrates real-time data smoothing and trend projection based on current atmospheric signals.
 
