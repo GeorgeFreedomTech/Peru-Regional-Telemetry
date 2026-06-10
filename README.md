@@ -8,6 +8,7 @@ This project demonstrates a robust, end-to-end **ETL (Extract, Transform, Load)*
 
 It serves as a practical blueprint for **data-driven application development**, bridging the gap between raw data ingestion and user-facing intelligence using a modern, AI-augmented workflow.
 
+Full story: https://georgefreedom.com/from-raw-signal-to-strategic-insight-building-a-data-pipeline-with-python/
 
 ### 🌐 Live Telemetry HQ
 Access the real-time environmental data stream directly through the web interface.
